@@ -1,0 +1,49 @@
+:deep {
+  .q-field--error {
+    .q-field__control {
+      background: rgba(245, 61, 107, 0.07);
+
+      &:after {
+        border-width: 1px;
+      }
+    }
+  }
+
+
+  .q-field--focused {
+    .q-field__control {
+      &:before {
+        border-width: 1px;
+      }
+
+      &:after {
+        border-width: 1px;
+      }
+    }
+  }
+
+  .q-field__control {
+    height: 54px !important;
+    background: #F1F3F6;
+    border-radius: 16px;
+
+    &:before {
+      border: 0;
+    }
+  }
+
+  .q-input {
+    margin-top: 12px;
+  }
+
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--q-primary);
+  }
+
+  .optional-label {
+    color: #84849A;
+  }
+}

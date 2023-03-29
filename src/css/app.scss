@@ -1,0 +1,23 @@
+// app global css in SCSS form
+
+:root {
+  --max-screen-width: 1200px
+}
+
+:root {
+  --dark_2: #4B4E68;
+  --dark_3: #84849A;
+  --dark_5: #C2C4CD;
+  --dark_6: #ABADB7;
+}
+
+/* resets */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
